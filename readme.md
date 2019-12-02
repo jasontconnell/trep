@@ -1,5 +1,6 @@
 # Usage
 trep
+
     -h  _print help_
 
     -d _directory to search_ ( default '.' )
@@ -13,7 +14,7 @@ trep
     -p _the replace. use go style sprintf syntax ( default %s[[0]] ) 
 
     -i _in match replacements_ replace characters in output matches
-    
+
     
     
 ## Example
