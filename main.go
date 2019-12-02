@@ -20,7 +20,7 @@ func main() {
 	e := flag.String("e", "txt", "extension to include")
 	reg := flag.String("r", "(.*)", "the regex")
 	test := flag.String("t", ".*", "include files that match this regex")
-	rep := flag.String("p", "$0", "the replace, use go sprintf style tags")
+	rep := flag.String("p", "%s[0]", "the replace, use go sprintf style tags")
 	imr := flag.String("i", "", "in match replacements, comma separated (for each group matched. for instance, replace ' with '' if using in sql   syntax  ':'') ")
 	help := flag.Bool("h", false, "help - print help and exit")
 	flag.Parse()

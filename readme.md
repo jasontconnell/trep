@@ -1,17 +1,25 @@
 # Usage
 trep
     -h  _print help_
+
     -d _directory to search_ ( default '.' )
+
     -e _extension to include_ ( default 'txt' )
+
     -r _the regular expression to search_ ( default '(.*?)' )
+
     -t _the regular expression to require_ ( default '.*' )
+
     -p _the replace. use go style sprintf syntax ( default %s[[0]] ) 
+
     -i _in match replacements_ replace characters in output matches
+    
     
     
 ## Example
 
 Assume a folder structure full of html files, and you want to list the sources of all image tags (assuming powershell)
+
 `
 trep -d . -e html -r 'src="""\\-/media/(.*?).ashx.*?"""' -p "%[1]s"
 `
