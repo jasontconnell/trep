@@ -17,7 +17,7 @@ trep
 
     
     
-## Example
+## Examples
 
 Assume a folder structure full of html files, and you want to list the sources of all image tags (assuming powershell)
 
