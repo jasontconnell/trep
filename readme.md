@@ -32,3 +32,5 @@ trep -d . -e txt -r '(.*?) (.*?)' -p "insert into Table (Col1, Col2) values ('%[
 `
 
 The in match replacement, since this is sql, replaces apostrophe with double apostrophe as to not allow the values to interfere with the sql execution.
+
+The -d and -e parameters are given with the default values for illustration, but they won't be required if you're just doing the default values, obviously.
